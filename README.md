@@ -9,15 +9,6 @@ the lowest possible number of actions. To succeed you’ll have to manipulate va
 types of algorithms and choose the one (of many) most appropriate solution for an
 optimized data sorting.
 
-All functions are created in accordance with Norm - the bunch of rules how code should be formatted.
-
-**!NOTE** <br />
-Because of 42 School norm requirements: <br />
-* All variables are declared and aligned at the top of each function <br />
-* Each function can't have more then 25 lines of code <br />
-* C++ style code commenting is forbidden <br />
-* Project should be created just with allowed functions otherwise it's cheating. <br />
-
 ### Game rules
 
 * The game is composed of 2 stacks named a and b. <br>
@@ -156,7 +147,7 @@ too big or if the list isn’t sorted properly, you’ll get no points.
 Errors include for example: some arguments aren’t integers, some arguments are
 bigger than an integer, and/or there are duplicates.
 
-#### Pushswap Example
+### How to run
 ```
 $>./push_swap 2 1 3 6 5 8
 sa
@@ -172,7 +163,7 @@ Error
 $>
 ```
 
-### Execution example
+### How to test
 ```
 $>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
 6
