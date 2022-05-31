@@ -171,3 +171,7 @@ $>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
 OK
 $>
 ```
+### Visualizer
+![push_swap_visualizer](https://raw.githubusercontent.com/prranges/readme_files/main/push_swap_01.gif)
+
+To use a visualizer like the top gif, refer directly [here:](https://github.com/o-reo/push_swap_visualizer)
